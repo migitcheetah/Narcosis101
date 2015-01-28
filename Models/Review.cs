@@ -8,10 +8,11 @@ namespace Narcosis101.Models
     public class Review
     {
         public int ID { get; set; }
-        public string LastName { get; set; }
-        public string FirstMidName { get; set; }
-        public DateTime EnrollmentDate { get; set; }
+        public string User { get; set; }
+        public string Item { get; set; }
+        public DateTime Date { get; set; }
 
         public virtual ICollection<Item> Items { get; set; }
+        public virtual ICollection<User> Users { get; set; }
     }
 }

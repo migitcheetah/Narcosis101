@@ -5,12 +5,10 @@ using System.Web;
 
 namespace Narcosis101.Models
 {
-    public class Flash
+    public class Flash : Item
     {
-        public int ID { get; set; }
-        public string LastName { get; set; }
-        public string FirstMidName { get; set; }
-        public DateTime EnrollmentDate { get; set; }
+        public string Brightness { get; set; }
+        
 
         public virtual ICollection<Item> Items { get; set; }
     }

@@ -21,6 +21,9 @@ C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\System.Web.WebPages.Deployme
 C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\System.Web.WebPages.Razor.xml
 C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\Antlr3.Runtime.pdb
 C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\Newtonsoft.Json.xml
-C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\obj\Debug\Narcosis101.csprojResolveAssemblyReference.cache
 C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\obj\Debug\Narcosis101.dll
 C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\obj\Debug\Narcosis101.pdb
+C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\EntityFramework.dll
+C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\EntityFramework.SqlServer.dll
+C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\EntityFramework.xml
+C:\School\ASP.net2\lab3\Narcosis101\Narcosis101\bin\EntityFramework.SqlServer.xml

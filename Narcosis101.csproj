@@ -117,7 +117,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CamerasController.cs" />
+    <Compile Include="Controllers\FlashesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ItemsController.cs" />
+    <Compile Include="Controllers\LensesController.cs" />
+    <Compile Include="DAL\ItemContext.cs" />
+    <Compile Include="DAL\ItemInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -165,6 +171,26 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Items\Create.cshtml" />
+    <Content Include="Views\Items\Delete.cshtml" />
+    <Content Include="Views\Items\Details.cshtml" />
+    <Content Include="Views\Items\Edit.cshtml" />
+    <Content Include="Views\Items\Index.cshtml" />
+    <Content Include="Views\Cameras\Create.cshtml" />
+    <Content Include="Views\Cameras\Delete.cshtml" />
+    <Content Include="Views\Cameras\Details.cshtml" />
+    <Content Include="Views\Cameras\Edit.cshtml" />
+    <Content Include="Views\Cameras\Index.cshtml" />
+    <Content Include="Views\Lenses\Create.cshtml" />
+    <Content Include="Views\Lenses\Delete.cshtml" />
+    <Content Include="Views\Lenses\Details.cshtml" />
+    <Content Include="Views\Lenses\Edit.cshtml" />
+    <Content Include="Views\Lenses\Index.cshtml" />
+    <Content Include="Views\Flashes\Create.cshtml" />
+    <Content Include="Views\Flashes\Delete.cshtml" />
+    <Content Include="Views\Flashes\Details.cshtml" />
+    <Content Include="Views\Flashes\Edit.cshtml" />
+    <Content Include="Views\Flashes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
