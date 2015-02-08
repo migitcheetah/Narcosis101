@@ -121,6 +121,7 @@
     <Compile Include="Controllers\FlashesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ItemsController.cs" />
+    <Compile Include="Controllers\ItemsControllerOG.cs" />
     <Compile Include="Controllers\LensesController.cs" />
     <Compile Include="DAL\ItemContext.cs" />
     <Compile Include="DAL\ItemInitializer.cs" />
@@ -156,7 +157,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

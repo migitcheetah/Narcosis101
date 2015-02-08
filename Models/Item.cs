@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 
 namespace Narcosis101.Models
 {
     public class Item
     {
         public int ID { get; set; }
+        public string Class { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
         public string ShutterSpeed { get; set; }
@@ -22,4 +24,12 @@ namespace Narcosis101.Models
         public virtual Lense Lense { get; set; }
         public virtual Flash Flash { get; set; }
     }
+
+    public partial class ItemContext : DbContext
+    {
+        public DbSet<Item> Items { get; set; }
+    }
+
+
+
 }

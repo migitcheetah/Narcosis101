@@ -1,16 +1,22 @@
 ﻿@model IEnumerable<Narcosis101.Models.Flash>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Flashes";
 }
 
-<h2>Index</h2>
+<h2>Flashes</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Make)
+        </th>
         <th>
             @Html.DisplayNameFor(model => model.Make)
         </th>
@@ -40,6 +46,12 @@
 
 @foreach (var item in Model) {
     <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Class)
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Make)
         </td>

@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using Narcosis101.DAL;
 using Narcosis101.Models;
+using ItemContext = Narcosis101.Models.ItemContext;
 
 namespace Narcosis101.Controllers
 {
@@ -47,7 +48,7 @@ namespace Narcosis101.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Make,Model,ShutterSpeed,PowerReq,Dimensions,Weight,Finish,Brightness")] Flash flash)
+        public ActionResult Create([Bind(Include = "ID,Class,Make,Model,ShutterSpeed,PowerReq,Dimensions,Weight,Finish,Brightness")] Flash flash)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +80,7 @@ namespace Narcosis101.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Make,Model,ShutterSpeed,PowerReq,Dimensions,Weight,Finish,Brightness")] Flash flash)
+        public ActionResult Edit([Bind(Include = "ID,Class,Make,Model,ShutterSpeed,PowerReq,Dimensions,Weight,Finish,Brightness")] Flash flash)
         {
             if (ModelState.IsValid)
             {

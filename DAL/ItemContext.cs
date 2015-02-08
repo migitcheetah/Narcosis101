@@ -19,6 +19,6 @@ namespace Narcosis101.DAL
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
 
-        public System.Data.Entity.DbSet<Narcosis101.Models.Item> Items { get; set; }
+        public DbSet<Item> Items { get; set; }
     }
 }
